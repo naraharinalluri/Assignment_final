@@ -1,0 +1,78 @@
+.eh4 {
+    margin-top: 20px;
+    font-family: "Regular Patch", "Regular Bold", "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    ;
+}
+
+#body_right {
+    display: inline;
+    float: left;
+    width: 30%;
+    padding-left: 1rem;
+    /* background-color: brown; */
+}
+.labe {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+#ebar {
+    width: 320px;
+    height: 50px;
+}
+
+.labp {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#pbar {
+    width: 320px;
+    height: 50px;
+}
+
+.anc {
+    text-decoration: underline;
+    color: #6400e4 !important;
+}
+
+#sub_btn {
+    background-color: #6400e4;
+    color: cornsilk;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sp1 .sp2 {
+    font-size: 2px !important;
+    margin-top: 20px;
+    color: #adafba;
+}
+
+.sp3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#btnn {
+    border-style: solid;
+    border-color: lightgrey;
+    margin-top: 15px;
+    padding: 15px 25px;
+}
+
+#btnn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.linkd {
+    height: 20px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .images {
+        display: none;
+    }
+}

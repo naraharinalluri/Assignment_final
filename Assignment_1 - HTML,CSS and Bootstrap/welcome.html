@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>welcome Page</title>
+
+
+
+<body>
+    <div class="container" style="display: flex; justify-content: space-around; margin-top: 250px; ">
+        <span>
+            <h1>WELCOME USER!</h1>
+        </span>
+        <span id="logoutBtn" type="submit" class="btn btn-primary btn-lg">Logout</span>
+    </div>
+    <script>
+        let logout = document.querySelector('#logoutBtn')
+        logout.addEventListener('click', e => {
+            window.location.href = "./index.html";
+        })
+    </script>
+    </head>
+</body>
+<!-- <script src="goback.js"></script> -->
+
+</html>

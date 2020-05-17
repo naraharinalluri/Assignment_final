@@ -1,0 +1,17 @@
+#imgg {
+    height: 100%;
+    width: 80%;
+}
+
+.images {
+    display: inline;
+    float: left;
+    width: 60%;
+    /* background-color: cyan; */
+}
+
+@media screen and (max-width: 600px) {
+    .images {
+        display: none;
+    }
+}

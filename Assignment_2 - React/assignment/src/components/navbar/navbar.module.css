@@ -1,0 +1,36 @@
+#logo{
+    margin-top: 4px;
+}
+
+#su {
+    background-color: #6400e4 !important;
+    color: white;
+}
+
+#li {
+    font-weight: bold;
+}
+
+#navButton {
+    font-family: "Nunito Sans", sans-serif !important;
+    color: #141c3a;
+    text-decoration: none !important;
+}
+
+#nav1 {
+    display: flex;
+}
+#nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+@media screen and (max-width: 900px) {
+    #navMid {
+        display: none !important;
+    }
+    #su {
+        display: none !important;
+    }
+}
